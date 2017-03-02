@@ -1,0 +1,135 @@
+body {
+  background-color: #cac9c9;
+  font-family: "Roboto Slab", Times, serif;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000;
+  font-weight: lighter;
+}
+
+.container {
+    background-color: #ffffff;
+    width: 980px;
+    margin: 0 auto;
+    padding: 10px 30px;
+}
+
+.solution-content,
+.final-content,
+.product-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header {
+  display: flex;
+}
+.header-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-girl {
+  min-height: 661px;
+  min-width: 237px;
+  background-image: url("../img/girl_237_661.png");
+  background-repeat: no-repeat;
+  background-position: left;
+
+  margin: auto;
+}
+
+.header-title {
+  width: 590px;
+  font-size: 98px;
+  line-height: 100px;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+.bold {
+  font-weight: bold;
+}
+.red-text {
+  color: #ce090e;
+}
+
+.header-logo {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.header-button {
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: inherit;
+  text-align: center;
+
+  border: 3px solid #000000;
+  padding: 26px 50px;
+  width: 300px;
+
+}
+.header-link {
+font-size: 14px;
+font-weight: bold;
+color: inherit;
+line-height: 64px;
+}
+
+.solution {
+  /*background-color: #cac9c2;*/
+
+}
+.solution-title,
+.final-title,
+.product-title {
+  /*background-color: #ffffff;*/
+  width: 920px;
+  font-size: 48px;
+  line-height: 60px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.solution-subtitle {
+  font-size: 36px;
+  line-height: 24px;
+  font-weight: lighter;
+  text-align: center;
+}
+.solution-text {
+  width: 380px;
+}
+
+
+.solution-block,
+.final {
+  border-top: 1px solid #000000;
+}
+
+.final-pic {
+  border: 1px solid #000000;
+}
+.product-border{
+  background-color: #ebe9e9;
+
+}
+.product {
+  background-color: #ebe9e9;
+}
+
+.footer-border,
+.footer {
+  background-color: #000000;
+}
+.footer {
+  display: flex;
+  font-family: "Roboto", Times, sans-serif;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
