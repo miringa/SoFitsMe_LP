@@ -36,7 +36,6 @@ body {
   background-image: url("../img/girl_237_661.png");
   background-repeat: no-repeat;
   background-position: left;
-
   margin: auto;
 }
 
@@ -68,17 +67,30 @@ body {
   text-transform: uppercase;
   color: inherit;
   text-align: center;
-
   border: 3px solid #000000;
   padding: 26px 30px;
   width: 300px;
+  cursor: pointer;
 
 }
+.header-button:hover {
+  background-color: #f95256;
+  border: 3px solid #f95256;
+  color: #ffffff;
+}
+.header-button:hover .red-text {
+  color: #ffffff;
+}
+
 .header-link {
 font-size: 14px;
 font-weight: bold;
 color: inherit;
 line-height: 64px;
+cursor: pointer;
+}
+.header-link:hover {
+  color: #ce090e;
 }
 
 .solution-title,
@@ -140,9 +152,9 @@ line-height: 64px;
 .final-buttons {
   position: absolute;
   top: 0;
- right: 0;
-
+  right: 0;
 }
+
 
 .final-prev,
 .final-next {
@@ -274,7 +286,6 @@ line-height: 64px;
   font-weight: bold;
   text-transform: uppercase;
   text-align: center;
-
   border: 3px solid #000000;
   padding: 26px 0px;
   width: 300px;
@@ -286,6 +297,20 @@ line-height: 64px;
   color: inherit;
 
 }
+.product-button:hover {
+  background-color: #f95256;
+  border: 3px solid #f95256;
+  color: #ffffff;
+}
+
+.product-button:hover .red-text {
+  color: white;
+}
+
+.product-button:hover .gray-text {
+  color: #000000;
+}
+
 .gray-text {
   color: #6e6e6e;
   padding-left: 10px;
