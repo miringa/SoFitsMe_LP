@@ -58,8 +58,7 @@ body {
   justify-content: flex-end;
 }
 
-.header-button,
-.product-button  {
+.header-button {
   text-decoration: none;
   font-weight: bold;
   text-transform: uppercase;
@@ -214,8 +213,13 @@ line-height: 64px;
   justify-content: center;
   align-items: flex-end;
 }
-
-.product-item {
+.product-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 33%;
+}
+/*.product-item {
   background-color: #ffffff;
   width: 176px;
   height: 176px;
@@ -223,10 +227,49 @@ line-height: 64px;
   font-size: 36px;
   text-transform: uppercase;
   text-align: center;
+}*/
+.product-text {
+  font-size: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 36px;
+  line-height: 40px;
 }
 
+.number {
+  font-size: 48px;
+}
+.num3 {
+  margin-top: 30px;
+}
+
+.product-circle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  width: 176px;
+  height: 176px;
+  /*border: 4px solid: */
+  border-radius: 50%;
+}
+
+
 .product-button {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+
+  border: 3px solid #000000;
+  padding: 26px 0px;
+  width: 300px;
+  margin-top: 40px;
+}
+
+.product-button a {
   text-decoration: none;
+  color: inherit;
+
 }
 .gray-text {
   color: #6e6e6e;
@@ -240,6 +283,8 @@ line-height: 64px;
   background-color: #f95256;
   width: 106px;
   text-align: center;
+  margin-top: -20px;
+
 }
 .product-thing3 {
   border: 6px solid #f95256;
