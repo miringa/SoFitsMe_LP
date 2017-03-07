@@ -154,8 +154,22 @@ cursor: pointer;
   top: 0;
   right: 0;
 }
-
-
+.final-prev:hover,
+.final-next:hover {
+  background-color: #000000;
+}
+.final-prev:hover .final-prev-arrow {
+  border: 1px solid #ffffff;
+  transform: rotate(45deg);
+  border-right-width: 0;
+  border-top-width: 0;
+}
+.final-next:hover .final-next-arrow {
+  border: 1px solid #ffffff;
+  transform: rotate(45deg);
+  border-left-width: 0;
+  border-bottom-width: 0;
+}
 .final-prev,
 .final-next {
   width: 36px;
@@ -165,6 +179,7 @@ cursor: pointer;
   border-right: none;
   border-top: none;
   background-color: #ffffff;
+  cursor: pointer;
 }
 .final-prev {
   padding-left: 13px;
