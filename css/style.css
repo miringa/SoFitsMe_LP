@@ -128,6 +128,7 @@ cursor: pointer;
 }
 
 .final-pic {
+  position: relative;
   border: 1px solid #000000;
   min-width: 390px;
   min-height: 630px;
@@ -147,13 +148,28 @@ cursor: pointer;
   position: absolute;
   top: 0;
   left: 0;
+  z-index: 10;
 }
-
+.slider-current,
+.slider-total {
+  display: inline-block;
+  width: 10px;
+}
+.slider-current{
+  text-align: right;
+}
 .final-buttons {
   position: absolute;
   top: 0;
   right: 0;
+  z-index: 10;
 }
+.final-prev:focus,
+.final-next:focus {
+  outline: 0;
+}
+
+
 .final-prev:hover,
 .final-next:hover {
   background-color: #000000;
